@@ -1,0 +1,5 @@
+ow,end="\t\t")
+        print(sep="\t")
+    conn.close()
+except sql.err.OperationalError as err:
+    print(err)
